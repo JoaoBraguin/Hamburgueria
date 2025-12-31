@@ -1,0 +1,115 @@
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(20, 20, 20);
+    height: 700px;
+    color: white;
+
+
+
+    .inicio3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        color: white;
+        margin-top: 50px;
+        width: 100%;
+
+        h1 {
+            color: orange;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 40px;
+        }
+
+        span {
+            text-align: center;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 30px;
+            width: 800px;
+        }
+    }
+
+    .rewards {
+        display: flex;
+        margin: 30px;
+        gap: 70px;
+        margin-top: 70px;
+        
+
+
+
+        .colocacao {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 200px;
+            background-color: black;
+            border: solid 1px rgb(58, 58, 58);
+            padding: 60px;
+            width: 340px;
+            height: 390px;
+            border-radius: 20px;
+              transition: border-color 0.3s ease;
+
+            &:hover {
+                border-color: orange;
+                transition: border-color 0.3s ease;
+            }
+
+
+            .pontos {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 8px;
+
+                span {
+                    color: orange;
+                    font-size: 22px;
+                }
+
+                p {
+                    color: gray;
+                    font-size: 14px;
+                }
+
+                svg {
+
+                    color: orange;
+                    font-size: 80px;
+                }
+            }
+
+            .desconto {
+                display: flex;
+                flex-direction: column;
+                width: 500px;
+                gap: 16px;
+                margin-top: 32px;
+
+                .teste {
+                    display: flex;
+                    align-items: center;
+                    margin-left: -30px;
+                    gap: 9px;
+
+                    p {
+                        font-size: 14px;
+                        color: rgb(207, 207, 207);
+                    }
+                }
+
+                svg {
+                    font-size: 18px;
+                    color: orange;
+                }
+            }
+        }
+    }
+
+}

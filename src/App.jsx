@@ -1,0 +1,11 @@
+import "./App.css";
+import RoutesApp from "./routes";
+import { BrowserRouter } from "react-router-dom";
+
+function App() {
+  return (
+    <RoutesApp />
+  );
+}
+
+export default App;
