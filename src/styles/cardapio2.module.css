@@ -11,7 +11,7 @@
     h1 {
         color: orange;
         font-family: "Amatic SC", sans-serif;
-          font-size: 40px;
+        font-size: 40px;
     }
 
     span {
@@ -23,21 +23,24 @@
 .all {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
     color: white;
+    margin-top: 60px;
 
 
 
     .itens {
-        padding: 20px;
-        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px;
         transition: 0.9s;
 
         .conteudo {
             display: flex;
             flex-direction: column;
-            padding: 20px;
+            padding: 10px;
+            transition: 0.9s;
+
 
 
 
@@ -77,13 +80,18 @@
                     color: black;
                     gap: 8px;
                     background-color: orange;
-                    border-radius: 10px;
+                    border-radius: 7px;
                     margin-top: 6px;
+                    cursor: pointer;
 
                     svg {
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                    }
+
+                    &:hover {
+                        background-color: rgb(255, 184, 53);
                     }
                 }
 
@@ -95,13 +103,15 @@
 
 
 
+
+
             }
         }
 
-        &:hover {
+        /* &:hover {
             transform: scale(1.03);
             transition: 0.9s;
-        }
+        } */
 
 
     }
@@ -120,8 +130,9 @@
     font-weight: normal;
     padding: 11px;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    font-family: "Chewy", system-ui;
 }
 
 
