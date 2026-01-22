@@ -39,7 +39,7 @@ export default function Hero() {
                         <a href="/cardapio">Ver Cardapio</a>
                     </div>
                     <div className={style.option2}>
-                        <a href="#">Peça No ifood</a>
+                        <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/burger-king---ricardo-jafet-vila-sao-jose/ab9148c9-674d-4fe2-be08-e36667411711">Peça No ifood</a>
                     </div>
                 </div>
             </div>

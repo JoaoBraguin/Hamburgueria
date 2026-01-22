@@ -3,7 +3,7 @@ import Home from "../pages/Home";
 import Sobre from "../pages/Sobre.jsx";
 import Serviço from "../pages/Serviço.jsx";
 import Cardapio from "../pages/Cardapio.jsx";
-import Time from "../components/Time/index.jsx";
+import Time from "../pages/Time.jsx";
 import Contato from "../pages/Contato.jsx";
 
 export default function RoutesApp() {

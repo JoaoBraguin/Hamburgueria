@@ -9,7 +9,7 @@
     font-family: "Bebas Neue", sans-serif;
 }
 
-/* LOGO */
+
 .logo {
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@
     letter-spacing: 1px;
 }
 
-/* MENU */
+
 .nav {
     display: flex;
     gap: 35px;
@@ -48,7 +48,7 @@
     color: #f2a007;
 }
 
-/* BOTÃO PEDIDO */
+
 .pedido {
     background-color: #f2a007;
     color: black;
@@ -72,12 +72,12 @@
     background-color: #ffb92a;
 }
 
-/* Ícone do botão */
+
 .pedido svg {
     font-size: 18px;
 }
 
-/* Responsividade */
+
 @media (max-width: 900px) {
     .container {
         flex-direction: column;

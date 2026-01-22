@@ -1,0 +1,230 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+    .esq {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 20px;
+        background-color: rgb(20, 20, 20);
+        padding: 30px;
+        width: 700px;
+        border-radius: 8px;
+        border: solid 0.5px orange;
+        border-color: oklab(75.0544% .0941655 .152364 / .2);
+
+        h1 {
+            color: orange;
+        }
+
+        svg {
+            display: flex;
+            flex-direction: row;
+            color: orange;
+            font-size: 27px;
+        }
+
+        .location {
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+
+
+
+            p {
+                color: white;
+                font-weight: 600;
+            }
+
+            .infos {
+                display: flex;
+                flex-direction: column;
+
+
+
+
+                .info {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    color: white;
+                    margin-top: 20px;
+                    color: rgb(150, 150, 150);
+                    gap: 8px;
+                }
+
+                .icon {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+
+
+
+
+            }
+        }
+    }
+
+    .dir {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 20px;
+        background-color: rgb(20, 20, 20);
+        padding: 30px;
+        width: 700px;
+        border-radius: 8px;
+        border: solid 0.5px orange;
+        border-color: oklab(75.0544% .0941655 .152364 / .2);
+
+        h1 {
+            color: orange;
+        }
+
+        svg {
+            display: flex;
+            flex-direction: row;
+            color: orange;
+            font-size: 27px;
+        }
+
+
+        .clock {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+
+            p {
+                color: white;
+                font-weight: 600;
+            }
+
+            .infos {
+                display: flex;
+                flex-direction: column;
+
+
+
+                .info {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    color: white;
+                    margin-top: 20px;
+                    color: rgb(150, 150, 150);
+                    gap: 8px;
+
+                    .especial {
+                        color: orange;
+                    }
+                }
+
+                .icon {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+
+
+
+
+            }
+        }
+    }
+}
+
+
+.redes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+
+    .inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        gap: 15px;
+        color: white;
+
+        h1 {
+            color: orange;
+            font-family: "Amatic SC", sans-serif;
+            font-size: 40px;
+        }
+
+        span {
+            font-family: "Amatic SC", sans-serif;
+            font-size: 30px;
+        }
+    }
+
+    .cardsRedes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 60px;
+        margin-top: 50px;
+        width: 1400px;
+        height: 200px;
+        color: white;
+
+
+        .cardRedes {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 14px;
+            background-color: rgb(20, 20, 20);
+            padding: 25px;
+            border-radius: 10px;
+            cursor: pointer;
+            /* Importante! Deixa a borda invisível inicialmente */
+            border: 2px solid transparent;
+            /* Suaviza o acendimento da borda */
+            transition: border-color 0.3s ease;
+
+            p {
+                display: flex;
+                font-weight: 100;
+                color: rgb(176, 176, 176);
+            }
+
+            span {
+                font-weight: lighter;
+            }
+
+
+            &:hover {
+                border-color: orange;
+            }
+
+            h4 {
+                color: orange;
+            }
+        }
+
+        .iconRedes {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 26px;
+            padding: 10px;
+            width: 55px;
+
+            svg {
+                display: flex;
+                color: gray;
+                font-size: 40px;
+            }
+        }
+    }
+
+}
