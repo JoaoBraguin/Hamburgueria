@@ -32,7 +32,9 @@ export default function Hero() {
                 <div className={`${style.text} textReveal`}>
                     <h1 className={style.one}>Algar</h1>
                     <h1 className={style.two}>Burguer</h1>
-                    <h3>Hamburgueria artesanal com ingredientes frescos, carnes suculentas e receitas exclusivas. Cada hambúrguer é feito com paixão, em um ambiente moderno e acolhedor.</h3>
+                    <div className={style.sobretext}>
+                        <h3>Hamburgueria artesanal com ingredientes frescos, carnes suculentas e receitas exclusivas. Cada hambúrguer é feito com paixão, em um ambiente moderno e acolhedor.</h3>
+                    </div>
                 </div>
                 <div className={`${style.option} optionReveal`}>
                     <div className={style.option1}>

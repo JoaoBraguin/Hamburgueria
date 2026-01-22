@@ -112,3 +112,10 @@
 
  
 }
+
+@media (max-width:1000px) {
+    .descricao{
+        text-align: center;
+        padding: 50px;
+    }
+}

@@ -104,4 +104,31 @@
         }
 
     }
+
+   
 }
+
+ @media (max-width: 1350px) {
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .esq{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 500px;
+        }
+
+        .infos{
+            flex-direction: column;
+        }
+    }

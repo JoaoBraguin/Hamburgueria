@@ -160,6 +160,18 @@
     }
 }
 
+@media (max-width:1700px) {
+    .inicio{
+        text-align: center;
+        padding: 10PX;
+    }
+
+    .all{
+        flex-direction: column;
+        
+    }
+}
+
 
 
 /* .price {
