@@ -90,11 +90,15 @@
 
 @media (max-width:1400px) {
     .team{
-        margin-top: 100px;
+        margin-top: 20px;
         flex-direction: column;
+        margin-top: 100px;
     }
 
     .inicio{
-        margin-top: 900px;
+        
+        margin-top: 300px;
     }
+
+  
 }

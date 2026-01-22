@@ -53,19 +53,19 @@
         flex-direction: column;
         gap: 8px;
 
-        h1{
+        h1 {
             display: flex;
             font-size: 30px;
             font-family: "Amatic SC", sans-serif;
             font-weight: 800;
         }
 
-        p{
+        p {
             display: flex;
             font-size: 30px;
             font-family: "Amatic SC", sans-serif;
             width: 300px;
-           
+
         }
 
 
@@ -110,12 +110,22 @@
         width: 230px;
     }
 
- 
+
 }
 
 @media (max-width:1000px) {
-    .descricao{
+    .descricao {
+
         text-align: center;
-        padding: 50px;
+        padding: 30px;
+
+        p {
+            width: 350px;
+        }
+
+    }
+
+    .location{
+        width: 370px;
     }
 }
