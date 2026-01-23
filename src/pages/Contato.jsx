@@ -56,7 +56,7 @@ export default function Contato() {
                     </div>
                 </div>
             </div>
-            <div className={style.redes}>
+            {/* <div className={style.redes}>
                 <div className={style.inicio}>
                     <h1>Siga-nos nas Redes Sociais</h1>
                     <span>Acompanhe nosso dia a dia, promoções exclusivas e os bastidores da melhor hamburgueria da cidade</span>
@@ -95,7 +95,7 @@ export default function Contato() {
                         <h4>9K seguidores</h4>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <Footer />
         </>
     )

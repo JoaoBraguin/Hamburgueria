@@ -57,7 +57,7 @@
             color: white;
             gap: 12px;
 
-            
+
             p {
                 color: orange;
                 font-family: "Bebas Neue", sans-serif;
@@ -89,16 +89,16 @@
 }
 
 @media (max-width:1400px) {
-    .team{
+    .team {
         margin-top: 20px;
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
-    .inicio{
-        
-        margin-top: 300px;
+    .inicio {
+
+        margin-top: 280px;
     }
 
-  
+
 }

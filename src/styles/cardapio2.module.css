@@ -18,6 +18,14 @@
         font-family: "Amatic SC", sans-serif;
         font-size: 30px;
     }
+
+    @media(max-width:1200px) {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        margin-top: 60px;
+        width: 380px;
+    }
 }
 
 .all {
@@ -25,6 +33,13 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
     margin-top: 60px;
+
+    @media(max-width:1200px) {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
 
 
 

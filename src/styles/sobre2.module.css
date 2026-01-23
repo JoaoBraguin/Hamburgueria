@@ -86,9 +86,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 60px;
+        margin-top: -10px;
         gap: 15px;
         color: white;
+
+      
 
         h1 {
             color: orange;
@@ -155,7 +157,7 @@
             }
         }
 
-       
+
 
 
 
@@ -171,7 +173,7 @@
         justify-content: center;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 60px;
-        margin-top: 50px;
+        margin-top: 40px;
         width: 1000px;
         color: white;
 
@@ -450,9 +452,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 60px;
+        margin-top: -10px;
         gap: 15px;
         color: white;
+
+
 
         h1 {
             color: orange;
@@ -565,6 +569,7 @@
     /* Nossos Valores */
 
     .inicio {
+        margin-top: 20px;
         text-align: center;
         padding: 20px;
     }

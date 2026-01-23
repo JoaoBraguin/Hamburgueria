@@ -1,7 +1,7 @@
 .container {
     display: flex;
     justify-content: space-around;
-    margin-top: 60px;
+    margin-top: 20px;
 
     .esq {
         display: flex;
@@ -164,16 +164,31 @@
             font-family: "Amatic SC", sans-serif;
             font-size: 30px;
         }
+
+        @media(max-width:1200px) {
+            display: flex;
+            margin: auto;
+            text-align: center;
+            width: 400px;
+            margin-top: -20px;
+        }
     }
 
     .cardsRedes {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 60px;
+        gap: 30px;
         margin-top: 50px;
         width: 1400px;
         height: 200px;
         color: white;
+
+        @media (max-width:1400px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 30px;
+            width: 410px;
+        }
 
 
         .cardRedes {
@@ -190,6 +205,13 @@
             border: 2px solid transparent;
             /* Suaviza o acendimento da borda */
             transition: border-color 0.3s ease;
+
+            @media(max-width:1000px) {
+                margin: auto;
+                width: 180px;
+             
+                padding: 20px;
+            }
 
             p {
                 display: flex;
@@ -209,6 +231,8 @@
             h4 {
                 color: orange;
             }
+
+
         }
 
         .iconRedes {
@@ -226,5 +250,31 @@
             }
         }
     }
+
+}
+
+@media (max-width:1500px) {
+    .container {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: -30px;
+
+        .esq {
+            width: 300px;
+        }
+
+        .dir {
+            width: 300px;
+        }
+
+
+
+
+    }
+
 
 }

@@ -56,6 +56,7 @@
             border: solid 3px rgb(58, 58, 58);
 
 
+
             .botao {
                 display: flex;
                 align-items: center;
@@ -208,11 +209,15 @@
         }
     }
 
+}
 
+@media (max-width: 1000px) {
+    .combocards {
+        grid-template-columns: 1fr;
+    }
 
-
-
-
-
-
+    .combocards .card {
+        max-width: 100%;
+        height: auto;
+    }
 }
