@@ -15,6 +15,7 @@
         color: white;
 
 
+
         h1 {
             color: orange;
             font-family: "Amatic SC", sans-serif;
@@ -27,6 +28,11 @@
             font-family: "Amatic SC", sans-serif;
             font-size: 30px;
             width: 800px;
+
+            @media (max-width: 1400px) {
+                width: 400px;
+            }
+
         }
     }
 
@@ -233,7 +239,9 @@
     .inicio {
         text-align: center;
         width: 200px;
+
+
     }
 
-    
+
 }

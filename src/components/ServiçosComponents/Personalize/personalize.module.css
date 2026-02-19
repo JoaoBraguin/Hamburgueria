@@ -13,7 +13,6 @@
         margin-top: 60px;
         gap: 15px;
         color: white;
-
         width: 100%;
 
         h1 {
@@ -27,6 +26,10 @@
             font-family: "Amatic SC", sans-serif;
             font-size: 30px;
             width: 800px;
+
+            @media (max-width: 1000px) {
+                width: 300px;
+            }
         }
     }
 
@@ -67,5 +70,35 @@
 
             }
         }
+
+
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .tipos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .tipo{
+        margin-bottom: -45px;
+    }
+
+    .inicio3 {
+        display: flex;
+
+        h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 500px;
+        }
+
+
     }
 }

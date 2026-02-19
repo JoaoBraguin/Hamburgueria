@@ -2,8 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 90px;
-    background-color: rgb(20, 20, 20);
+    /* background-color: rgb(20, 20, 20); */
     height: 500px;
+
+    @media (max-width: 1400px) {
+        margin-top: 40px;
+    }
 
 
     .inicio3 {
@@ -16,6 +20,8 @@
         color: white;
         width: 100%;
 
+
+
         h1 {
             color: orange;
             font-family: "Amatic SC", sans-serif;
@@ -27,6 +33,10 @@
             font-family: "Amatic SC", sans-serif;
             font-size: 30px;
             width: 800px;
+
+            @media (max-width: 1000px) {
+                width: 300px;
+            }
         }
     }
 
@@ -37,6 +47,15 @@
         margin-top: 50px;
         gap: 70px;
 
+        @media (max-width: 1400px) {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 30px;
+            width: 300px;
+        }
+
         .details {
             border: solid 1px rgb(58, 58, 58);
             background-color: black;
@@ -46,6 +65,25 @@
             border-radius: 15px;
             cursor: pointer;
             transition: 1s;
+
+            @media (max-width: 1400px) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin-bottom: -30px;
+                width: 150px;
+
+                span{
+                    width: 300px;
+                }
+
+                p{
+                    display: flex;
+                    text-align: center;
+                    width: 115px;
+                }
+            }
 
             .icon {
                 display: flex;
@@ -80,7 +118,7 @@
                 color: gray;
             }
 
-            &:hover{
+            &:hover {
                 border: solid 1px orange;
                 transition: 1s;
             }
