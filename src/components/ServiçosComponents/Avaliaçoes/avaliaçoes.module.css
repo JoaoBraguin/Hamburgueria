@@ -36,6 +36,11 @@
         justify-content: center;
         margin-top: 60px;
 
+        @media (max-width:1000px) {
+            flex-direction: column;
+            
+        }
+
         .in {
 
             background-color: rgb(20, 20, 20);
@@ -43,6 +48,10 @@
             margin: 30px;
             padding: 34px;
             border-radius: 15px;
+
+            @media (max-width:1000px) {
+                width: 350px;
+            }
 
             .cliente {
                 display: flex;

@@ -1,223 +1,204 @@
 .container3 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     background-color: rgb(20, 20, 20);
-    height: 600px;
     margin-top: 100px;
-
-
-    .inicio3 {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 60px;
-        gap: 15px;
-        color: white;
-
-        width: 100%;
-
-        h1 {
-            color: orange;
-            font-family: "Amatic SC", sans-serif;
-            font-size: 40px;
-        }
-
-        span {
-            text-align: center;
-            font-family: "Amatic SC", sans-serif;
-            font-size: 30px;
-            width: 800px;
-        }
-    }
-
-    .combocards {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 80px;
-        width: 100%;
-        color: white;
-        margin-top: 50px;
-
-        .card {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 15px;
-            width: 350px;
-            height: 330px;
-            border-radius: 10px;
-            transition: transform 0.3s, box-shadow 0.3s;
-            /* background-color: #1E1E1E; */
-            background-color: black;
-            padding: 32px;
-            border: solid 3px rgb(58, 58, 58);
-
-
-
-            .botao {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-
-                button {
-                    padding: 16px;
-                    width: 270px;
-                    background-color: orange;
-                    border-radius: 10px;
-                    color: black;
-                    font-size: 17px;
-                    border: none;
-                    cursor: pointer;
-
-                    &:hover {
-                        background-color: rgb(255, 182, 45);
-                    }
-                }
-            }
-
-            h1 {
-                display: flex;
-                color: orange;
-                width: 280px;
-                font-size: 27px;
-
-            }
-
-            ul {
-                display: flex;
-                flex-direction: column;
-                gap: 15px;
-                font-size: 18px;
-                margin-top: 10px;
-
-                li {
-                    display: flex;
-                    gap: 10px;
-
-                    svg {
-                        align-items: center;
-                        justify-content: center;
-                        color: orange;
-                    }
-                }
-
-                h2 {
-                    display: flex;
-                    margin-top: 20px;
-                    color: orange;
-
-                }
-            }
-
-        }
-
-    }
-
-    .combocards {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 80px;
-        width: 100%;
-        color: white;
-        margin-top: 50px;
-
-        .card2 {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 15px;
-            width: 350px;
-            height: 330px;
-            border-radius: 10px;
-            transition: transform 0.3s, box-shadow 0.3s;
-            /* background-color: #1E1E1E; */
-            background-color: black;
-            padding: 32px;
-            border: solid 3px orange;
-
-
-
-            .most {
-                position: absolute;
-                top: -15px;
-                left: 50%;
-                transform: translateX(-50%);
-                background-color: orange;
-                color: black;
-                padding: 8px 18px;
-                border-radius: 20px;
-                font-size: 14px;
-                font-weight: bold;
-                font-weight: 200;
-                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-            }
-
-            .botao {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-
-                button {
-                    padding: 16px;
-                    width: 270px;
-                    background-color: orange;
-                    border-radius: 10px;
-                    color: black;
-                    font-size: 17px;
-                    border: none;
-                    cursor: pointer;
-
-                    &:hover {
-                        background-color: rgb(255, 182, 45);
-                    }
-                }
-            }
-
-            h1 {
-                color: orange;
-                font-size: 27px;
-            }
-
-            ul {
-                display: flex;
-                flex-direction: column;
-                gap: 15px;
-                font-size: 18px;
-                margin-top: 10px;
-
-                li {
-                    display: flex;
-                    gap: 10px;
-
-                    svg {
-                        color: orange;
-                    }
-                }
-            }
-
-            h2 {
-                margin-top: 20px;
-                color: orange;
-            }
-        }
-    }
-
+    padding-bottom: 80px;
 }
+
+/* ================= INICIO ================= */
+
+.inicio3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 15px;
+    color: white;
+    width: 100%;
+}
+
+.inicio3 h1 {
+    color: orange;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 40px;
+}
+
+.inicio3 span {
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 30px;
+    max-width: 800px;
+}
+
+/* ================= CARDS ================= */
+
+.combocards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* CARD PADRÃO */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    width: 350px;
+    min-height: 330px;
+    border-radius: 10px;
+    background-color: black;
+    padding: 32px;
+    border: solid 3px rgb(58, 58, 58);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(255, 165, 0, 0.2);
+}
+
+.card h1 {
+    color: orange;
+    font-size: 27px;
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card ul li {
+    display: flex;
+    gap: 10px;
+}
+
+.card ul li svg {
+    color: orange;
+}
+
+.card h2 {
+    margin-top: 20px;
+    color: orange;
+}
+
+/* CARD MAIS POPULAR */
+
+.card2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    width: 350px;
+    min-height: 330px;
+    border-radius: 10px;
+    background-color: black;
+    padding: 32px;
+    border: solid 3px orange;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card2:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(255, 165, 0, 0.3);
+}
+
+.card2 h1 {
+    color: orange;
+    font-size: 27px;
+}
+
+.card2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card2 ul li {
+    display: flex;
+    gap: 10px;
+}
+
+.card2 ul li svg {
+    color: orange;
+}
+
+.card2 h2 {
+    margin-top: 20px;
+    color: orange;
+}
+
+/* TAG MAIS POPULAR */
+
+.most {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: orange;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* BOTÃO */
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao button {
+    padding: 16px;
+    width: 100%;
+    max-width: 270px;
+    background-color: orange;
+    border-radius: 10px;
+    color: black;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao button:hover {
+    background-color: rgb(255, 182, 45);
+}
+
+/* ================= RESPONSIVO ================= */
 
 @media (max-width: 1000px) {
     .combocards {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        gap: 40px;
     }
 
-    .combocards .card {
-        max-width: 100%;
-        height: auto;
+    .card,
+    .card2 {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .inicio3 span {
+        font-size: 22px;
+        padding: 0 20px;
     }
 }

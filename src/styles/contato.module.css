@@ -53,6 +53,12 @@
                     margin-top: 20px;
                     color: rgb(150, 150, 150);
                     gap: 8px;
+
+                    @media (max-width: 1000px) {
+                        span {
+                            width: 300px;
+                        }
+                    }
                 }
 
                 .icon {
@@ -209,7 +215,7 @@
             @media(max-width:1000px) {
                 margin: auto;
                 width: 180px;
-             
+
                 padding: 20px;
             }
 

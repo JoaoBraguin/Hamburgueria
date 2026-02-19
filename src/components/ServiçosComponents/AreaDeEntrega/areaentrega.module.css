@@ -40,16 +40,25 @@
         justify-content: center;
         margin-top: 50px;
 
+
+
         .zona {
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 9px;
-           background-color: black;
+            background-color: black;
             border: solid 1px rgb(58, 58, 58);
             padding: 18px;
             width: 790px;
             border-radius: 12px;
+
+            @media (max-width: 1000px) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 360px;
+            }
 
 
             .icon {
@@ -68,6 +77,12 @@
                 display: flex;
                 gap: 500px;
                 align-items: center;
+
+                @media (max-width: 1000px) {
+                    display: flex;
+                    gap: 70px;
+                    
+                }
 
 
                 .info {
