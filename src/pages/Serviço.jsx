@@ -15,6 +15,7 @@ import PeçaOndeEstiver from "../components/ServiçosComponents/PeçaOndeEstiver
 import AreaDeEntrega from "../components/ServiçosComponents/AreaDeEntrega/index.jsx";
 import Avaliaçoes from "../components/ServiçosComponents/Avaliaçoes/index.jsx";
 import Fidelidade from "../components/ServiçosComponents/Fidelidade/index.jsx";
+import Footer2 from "../components/Footer2/index.jsx";
 
 
 
@@ -79,7 +80,7 @@ export default function Serviço() {
             <AreaDeEntrega />
             <Avaliaçoes />
             <Fidelidade />
-            <Footer />
+            <Footer2/>
         </>
     )
 
